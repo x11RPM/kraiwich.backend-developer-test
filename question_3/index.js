@@ -5,7 +5,7 @@ const readline = require('readline').createInterface({
 })
 
 lottoCombination = num => {
-  // Slice last 2 input and then loop 
+  // Slice last 2 input
   const lastTwo = num.slice(4)
   const result = []
   for(let i = 0; i <= parseInt(num.slice(0,4)); i++) {
